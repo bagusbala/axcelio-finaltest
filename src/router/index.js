@@ -6,6 +6,7 @@ import BootCampDetail from "../components/bootcamp/BootcampDetailPage";
 import BootCampProgram from "../components/bootcamp/BootcampProgramPage";
 import Blog from "../components/blog/BlogPage";
 import BlogDetail from "../components/blog/BlogDetailPage";
+import NotFound from "../components/404Page.vue";
 
 const routes = [
   {
@@ -37,6 +38,10 @@ const routes = [
     path: "/blog/:slug",
     name: "BlogDetail",
     component: BlogDetail,
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    component: NotFound,
   },
 ];
 

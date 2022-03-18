@@ -92,6 +92,13 @@
       <!-- <div class="leading-loose text-justify px-10" v-html="silabus"></div> -->
     </div>
     <div class="py-12 bg-white">
+      <div class="max-w-7xl mt-0 mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-justify">
+          <div v-html="silabus" />
+        </div>
+      </div>
+    </div>
+    <div class="py-12 bg-white">
       <div class="max-w-7xl mt-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
           <h2
