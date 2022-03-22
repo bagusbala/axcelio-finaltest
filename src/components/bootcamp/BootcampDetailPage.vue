@@ -40,7 +40,7 @@
           </main>
         </div>
       </div>
-      <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div class="lg:absolute mb-20 lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
           :src="kelasDetail.banner"
@@ -62,8 +62,7 @@
             CLASS PACKAGE
           </p>
           <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
-            voluptatum cupiditate veritatis in accusamus quisquam.
+            Package yang tersedia saat ini di Axcelio.id
           </p>
         </div>
       </div>

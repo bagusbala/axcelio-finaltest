@@ -112,8 +112,7 @@
             CLASS PACKAGE
           </p>
           <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
-            voluptatum cupiditate veritatis in accusamus quisquam.
+            Kelas lain yang mungkin Anda berminta untuk bergabung.
           </p>
         </div>
       </div>
@@ -129,7 +128,7 @@
               v-for="(data, index) in programDetail.related"
               :key="index"
             >
-              <router-link :to="'/package/' + data.slug">
+              <a :href="'/program/' + data.slug">
                 <div
                   class="relative w-full bg-white rounded-lg overflow-hidden"
                 >
@@ -163,7 +162,7 @@
                 <p class="mt-2 text-base text-justify font-bold tracking-tight">
                   Rp. {{ data.biaya.toLocaleString() }} <span class="ml-3 line-through decoration-2 text-gray-400">{{ data.harga_coret.toLocaleString() }}</span>
                 </p>
-              </router-link>
+              </a>
             </div>
           </div>
         </div>

@@ -92,7 +92,7 @@
             v-for="(data, index) in blogDetails.related"
             :key="index"
           >
-            <router-link :to="'/blog/' + data.slug">
+            <a :href="'/blog/' + data.slug">
               <div class="relative w-full bg-white rounded-lg overflow-hidden">
                 <img
                   :src="data.thumbnail"
@@ -119,7 +119,7 @@
                   </p>
                 </div>
               </div>
-            </router-link>
+            </a>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
           <div class="flex items-center">
-            <div class="flex-shrink-0">
+            <div class="flex-shrink-0 sm:justify-center">
               <span class="font-bold text-indigo-600 text-2xl">AXCELIO</span>
             </div>
             <div class="hidden md:block">
@@ -34,7 +34,7 @@
 
     <div class="bg-gray-50">
       <div
-        class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
+        class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between sm:justify-center"
       >
         <h2
           class="text-3xl text-left font-extrabold tracking-tight text-gray-900 sm:text-4xl"

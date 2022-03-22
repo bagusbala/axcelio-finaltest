@@ -78,8 +78,7 @@
             OUR CLASS
           </p>
           <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
-            voluptatum cupiditate veritatis in accusamus quisquam.
+            Mulai belajar! <br>Cek Daftar Kelas yang tersedia saat ini di Axcelio.id
           </p>
         </div>
       </div>
