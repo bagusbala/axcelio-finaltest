@@ -78,7 +78,7 @@
               v-for="(data, index) in kelasDetail.program"
               :key="index"
             >
-              <router-link :to="'/program/' + data.slug">
+              <a :href="'/program/' + data.slug">
                 <div
                   class="relative w-full bg-white rounded-lg overflow-hidden"
                 >
@@ -112,7 +112,7 @@
                 >
                   Rp. {{ data.biaya.toLocaleString() }} <span class="ml-3 line-through decoration-2 text-gray-400">{{ data.harga_coret.toLocaleString() }}</span>
                 </p>
-              </router-link>
+              </a>
             </div>
           </div>
         </div>

@@ -94,7 +94,7 @@
               v-for="(data, index) in classData"
               :key="index"
             >
-              <router-link :to="'/kelas/' + data.slug">
+              <a :href="'/kelas/' + data.slug">
                 <div
                   class="relative w-full bg-white rounded-lg overflow-hidden"
                 >
@@ -110,7 +110,7 @@
                 <p class="text-base text-justify text-gray-500">
                   {{ data.deskripsi_singkat }}
                 </p>
-              </router-link>
+              </a>
             </div>
           </div>
         </div>
